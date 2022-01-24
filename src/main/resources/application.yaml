@@ -1,0 +1,18 @@
+# configurazione del server
+spring:
+  profiles:
+    #active: test
+    #active: sqlite
+    active: postgres
+
+server:
+  port: 8092
+  servlet:
+    contextPath: /esercitazionePlansoft
+
+# impostazioni per hibernate
+hibernate:
+  hbm2ddl:
+    auto: none
+  show-sql: true
+

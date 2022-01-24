@@ -1,0 +1,7 @@
+# configurazione del server
+spring:
+  profiles:
+    active: test
+    #active: sqlite
+    #active: postgres
+
